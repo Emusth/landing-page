@@ -21,7 +21,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "Roboto", sans-serif;
 	vertical-align: baseline;
     box-sizing: border-box;
 }
@@ -73,5 +73,113 @@ Quote section BGC
 
 Quote text
 36px light italic #1F2937
-
 */
+
+
+
+header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 1rem 20%;
+}
+.header__logo {
+    font-size: 24px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.header__nav-ul {
+}
+
+.header__nav-li {
+    display: inline-block;
+    margin-right: 2rem;
+    
+}
+
+.header__nav-a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.header__content--text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
+}
+
+.header__h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.header__btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: .5rem 1.75rem;
+    width: fit-content;
+    border: none;
+    border-radius: 7px;
+}
+
+.header__content--img {
+    flex: 1;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.section1__h2 {
+}
+
+.section1__gallery {
+}
+
+.section1__card {
+}
+
+.card__box {
+}
+
+.card__description {
+}
+
+.section2__quote-text {
+}
+
+.section2__quote-name {
+}
+
+.section3__cta {
+}
+
+.cta__h3 {
+}
+
+.cta__subtitle {
+}
+
+.cta__btn {
+}
+
+.footer__p {
+}
