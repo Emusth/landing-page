@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,3 +48,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*
+Dark background color: #1F2937
+
+Hero main text
+48px extra-bold #F9FAF8
+
+Hero secondary text
+18px #E5E7EB
+
+header logo text
+24px #F9FaF8
+
+Button color/CTA BGC
+#3882F6
+
+information header text
+36px x-bold #1F2937
+
+Quote section BGC
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+
+*/
